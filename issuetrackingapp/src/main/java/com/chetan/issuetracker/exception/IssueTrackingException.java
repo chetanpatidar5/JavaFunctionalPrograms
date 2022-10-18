@@ -1,4 +1,4 @@
-package com.ismail.issuetracking.exception;
+package com.chetan.issuetracker.exception;
 
 public class IssueTrackingException extends RuntimeException {
 

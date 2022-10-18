@@ -1,6 +1,7 @@
-package com.ismail.issuetracking.dto;
+package com.chetan.issuetracker.dto;
 
-import com.ismail.issuetracking.entity.User;
+
+import com.chetan.issuetracker.entity.User;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
@@ -28,7 +29,7 @@ public class UserDTO {
 
     private Long positionId;
 
-    public  User toUser() {
+    public User toUser() {
         User user = new User();
         user.setId(this.id);
         user.setFirstName(this.firstName);

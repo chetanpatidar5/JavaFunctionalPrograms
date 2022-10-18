@@ -1,2 +1,4 @@
-package com.chetan.issuetracker.util;public class Common {
+package com.chetan.issuetracker.util;
+
+public class Common {
 }

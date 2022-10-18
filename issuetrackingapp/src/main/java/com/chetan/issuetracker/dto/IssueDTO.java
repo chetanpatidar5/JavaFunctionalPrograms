@@ -1,8 +1,10 @@
-package com.ismail.issuetracking.dto;
+package com.chetan.issuetracker.dto;
 
-import com.ismail.issuetracking.entity.Issues;
+
+import com.chetan.issuetracker.entity.Issues;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NonNull;
 import lombok.ToString;
 
 @Data
@@ -13,6 +15,7 @@ public class IssueDTO {
     private Long id;
     private String title;
     private String description;
+    @NonNull
     private Long owner;
     private Long assignTo;
     private Long type;
